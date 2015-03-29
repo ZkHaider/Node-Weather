@@ -1,5 +1,5 @@
 
 
-var weather = require("./weather.js");
+var data = require("./weather.js");
 var cities = process.argv.slice(2);
-cities.forEach(weather.getWeather);
+cities.forEach(data.getData);
